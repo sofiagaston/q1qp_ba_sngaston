@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro Page</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page"> <!--this div is the largest div-->
+        <div class="navbar"> <!--This div is the same in all the pages-->
+            <a href="studyBg.html">INTRODUCTION</a>
+            <div class="hamburger"><!--This div allows us to control the hamburger icon in css-->
+                <div id="myLinks">
+                    <a href="index.html">Home</a>
+                    <a href="main.html">Main Content and Conclusions</a>
+                    <a href="ref.html">References</a>
+                    <a href="AboutMe.html">About Me and My Team</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <!--The java code for the hamburger icon-->
+                <script>
+                    function myFunction() {
+                        var x = document.getElementById("myLinks");
+                        if (x.style.display === "block") {
+                        x.style.display = "none";
+                        } else {
+                        x.style.display = "block";
+                        }
+                    }
+                </script>
+            </div>
+        </div>
+        <div class="socmed"> <!--code for the social media links and its pictures, same on all pages-->
+            <div class="logo">
+                <img src="images/Logo.jpg" alt="Logo">
+            </div>
+            <a href="https://www.facebook.com/sofia.nicole.50">
+                <img src="images/facebook.png" alt="facebook">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="images/instagram.png" alt="instagram">
+            </a>
+            <a href="https://github.com/sofiagaston/q1qp_ba_sngaston">
+                <img src="images/github.png" alt="github">
+            </a>
+        </div>
+        <div class="title2"><!--contains all the introduction of the topic-->
+            <h3> <!--indicates the title of the project as it is the biggest in the page-->
+                <i>
+                    Exploring Socio Economic Variables: Qualitative and Quantitative Factors in the 3 Social Classes of the Filipinos
+                </i>
+            </h3>
+            <p>
+                We chose to report about Socio-Economic Variables of Pisay Scholars. Socio-Economic status is  a person's standing in society, which is based on factors like income, occupation, and social class; it is a measure of how their group is perceived by others. This is important as it plays a vital role in understanding the dynamics of  society and its impact on individuals. We aim to explore the qualitative and quantitative factors that differentiate the three social classes which are the Upper, Middle and Lower class within the Filipino population from a statistical perspective. The Upper class are individuals with significant wealth, access to exclusive resources, privileges, etc. The Middle class are individuals that have stable incomes enough to provide comfortable living for themselves and their family. The Lower class are individuals that have limited resources, unstable incomes, and lack opportunities or social support. The data we gathered is based on a sample of 55 randomly selected high school students. By analyzing various socio-economic variables with this data and written report, we are able to have a better understanding of the advantages, disadvantages and challenges faced by each social class, as well as identify the potential solutions to these problems. 
+            </p>
+            <p>
+                The Quantitative Variables is First, “how much is the weekly allowance of Pisay Scholars? (not including their monthly stipend from school)”. The Pisay Upper class students’ allowance is most likely Php 1,000 -  Php 2,000. The Middle class is Php 500 - Php 1,000. Meanwhile, the Lower class most likely have a weekly allowance of less than Php 500. Second, The size of  the individual’s household (Family of 3 or less, Family of 4 to 6 and Family of 6 or more). In our data you can see that there are 3 individuals who answered the survey that belonged to a family of 2, 6 individuals belonged to a family of 3, 16 individuals belonged to a family of 4, 22 individuals belonged to a family of 5, 5 individuals belonged to a family of 6, Only 1 individual belonged to a family of  7, and 2 individuals belonged to a family of 8. Here we can see that the majority of the individuals belonged to a family of 5. 
+            </p>
+            <p>
+                The Qualitative Variables in our data is First, “What household type did you grow up with?” This is classified into 4 categories which are the Single-Parent Household, Single-Parent with Extended-Family Household, Two-Parent Household and an Extended-Family Household. There are 3 individuals who live in an Extended-Family household, 9 individuals who live in a Single-Parent household, 3 individuals who live in a Single-Parent with Extended-Family household and 39 individuals who live in a Two-Parent household. We can see that the majority of  individuals who answered our survey belong to a Two-Parent household. 
+            </p>
+        </div>
+        <div class="footer"> <!--can be seen on the bottom of the page and is the same on all the pages-->
+            <p>All Rights Reserved. sofaig 2023</p>
+        </div>
+    </div>
+
+   </body>
+</html>

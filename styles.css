@@ -1,0 +1,262 @@
+.page{ /* covers the entire website page and is the same on all pages*/
+    background-color: #FFF2D8;
+    border:double black;
+    overflow-y: hidden;
+    
+}
+.navbar{ /*contains the hamburger menu and the page title, is found on all pages*/
+    top:0;
+    left:0;
+    overflow: hidden;
+    background-color: #113946;
+    position: fixed;
+    width:100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+
+}
+.hamburger { /*styles for th hamburger icon*/
+    display: flex;
+    align-items: center;
+}
+.hamburger a:hover {opacity:.5;} /*allows us to add effects when hovering over the hamburger icon*/
+
+#myLinks{ 
+    text-align: end;
+}
+
+.navbar #myLinks { /*id for the links when hamburger icon is clicked*/
+    display: none;
+    padding-top: 35px;
+}
+   
+.navbar a { /*styles for the links in the navbar*/
+    color: white;
+    font-family:monospace;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+.navbar a.icon { 
+    display: block;
+    position: absolute;
+    right: 0;
+    top:0;
+    margin-right:5px;
+}
+.socmed{ /*styles for the socmed div*/
+    top: 60px; 
+    border-top-right-radius:10px;
+    border-bottom-right-radius:10px;
+    background-color: #EAD7BB;
+    position: fixed; 
+    left: 0; 
+    width: 270px;
+    height: 50px; 
+    padding: 10px;
+    z-index: 1000;
+    display:flex; 
+    justify-content:space-between;
+}
+.socmed img{
+    width:50px;
+    height:50px;
+}
+.logo >img{ /* styles for the logo image*/
+    border-radius:70%;
+    border: double black;
+}
+.socmed a:hover {opacity:.5;}
+.title{ /*edits the title div and adds fonts and other stylistic choices*/
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    padding-right:20vw;
+    padding-left:20vw;
+    padding-top:10vh;
+    font-size: x-large;
+    color:#333;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.containers{
+    display:flex;
+}
+.containers >div{ /*pertains to the containers of the visible links in the home page*/
+    border:double #FFF2D8;
+    background-color: #113946;
+    width: 20vw;
+    margin: 10px;
+    padding:20px;
+    text-align: center;
+    font-size: 20px;
+    border-radius:15px;
+}
+.containers a{
+    text-decoration:none;
+    color: #FFF2D8;
+    font-family:monospace;
+}
+
+.containers a:hover{opacity: .5;} /*changes the link's opacity when hovered over*/
+
+.footer{ /* contains the rights and is present on all the pages*/
+    bottom:0;
+    right:0;
+    padding:10px;
+    margin-bottom:120px;
+    background-color:#EAD7BB;
+    position:fixed;
+    width:270px;
+    color: #333;
+    padding-left:15px;
+    border-top-left-radius:10px;
+    border-bottom-left-radius:10px;
+    font-family:monospace;
+}
+
+.title2 >p{ /*adds styles to the paragraphs located at div title2*/
+    text-indent:70px;
+    text-align:justify;
+    padding-right:20vw;
+    padding-left:20vw;
+    font-size: x-large;
+    color:#333;
+    font-family: 'Times New Roman', Times, serif;
+}
+.title2 >h3{
+    padding-right:20vw;
+    padding-left:20vw;
+    padding-top:10vh;
+    font-size: xx-large;
+    color:#333;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+.References{ /*styles for the references on the references page*/
+    background-color: #FFF2D8;
+    text-align:center;
+    display:flex;
+    flex-direction:column;
+    padding-right:20vw;
+    padding-left:20vw;
+    padding-top:10vh;
+    font-size: x-large;
+    color:#333;
+    font-family: 'Times New Roman', Times, serif;
+}
+.References >ul{ /* is specifically for the unordered list*/
+    background-color:#EAD7BB;
+    border-radius:15px;
+    border:dashed #333 2px;
+    padding:10px;
+    list-style: none;
+    bottom:0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.References >ul >li {
+    margin: 20px; 
+    word-wrap: break-word;
+}
+
+.References >ul >li a{
+    text-decoration: none;
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.References >ul >li a:hover{ /* makes te links present in the lists change opacity when hovered, helps make the link obvious*/
+    opacity:0.5;
+}
+
+.MyTeam{ /*this div adds needed styles to the pictures/headshots of my teammates*/
+    padding:70px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding-right:20vw;
+    padding-left:20vw; 
+    font-family: 'Times New Roman', Times, serif;
+}
+.headshot >img{ /*allows the images' borders to be rounded*/
+    border-radius: 100%;
+    border:double black;
+}
+
+.headshot :hover{
+    opacity: .5;
+}
+
+.box1{ /* fixes the images and text on the about me page*/
+    margin-right:20vw;
+    margin-left:20vw; 
+    margin-bottom:2vh;
+    background-color: #EAD7BB;
+    border-radius: 50px;
+    display:inline-flex;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.box1 >img{
+    left:0;
+    margin:10px;
+    border-radius:50px;
+    border:dashed black 1px;
+}
+
+.box1 >ul{
+    margin: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.content1 { /*applies style to the text and images on the main page*/
+    margin-top: 10vh;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    margin-bottom: 2vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.image-text-box { /*s the overall container of just the text and images*/
+    display: flex; 
+    align-items: center; 
+    background-color: #FFF2D8; 
+    margin: 10px; 
+}
+
+.image >img{
+    border-radius: 35px;
+    border:dashed black 1px;
+}
+
+.image {
+    flex: 1; 
+    padding: 10px; 
+}
+
+.text {
+    flex: 1; 
+    padding: 10px; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.conclusions{ /*edits the style of the conclusions*/
+    margin-top: 10vh;
+    margin-right: 20vw;
+    margin-left: 20vw;
+    margin-bottom: 2vh;
+    font-family: 'Times New Roman', Times, serif;
+    padding:20px;
+    background-color:#EAD7BB;
+    border-radius:50px;
+    border:black dashed 1px;
+}
+
+.conclusions >p{ /*just for the indent of the paragraphs*/
+    text-indent:70px;
+}

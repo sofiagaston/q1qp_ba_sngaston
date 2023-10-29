@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me Page</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page"> <!--this div is the largest div-->
+        <div class="navbar"> <!--This div is the same in all the pages-->
+            <a href="studyBg.html">INTRODUCTION</a>
+            <div class="hamburger"><!--This div allows us to control the hamburger icon in css-->
+                <div id="myLinks">
+                    <a href="index.html">Home</a>
+                    <a href="main.html">Main Content and Conclusions</a>
+                    <a href="ref.html">References</a>
+                    <a href="AboutMe.html">About Me and My Team</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <!--The java code for the hamburger icon-->
+                <script>
+                    function myFunction() {
+                        var x = document.getElementById("myLinks");
+                        if (x.style.display === "block") {
+                        x.style.display = "none";
+                        } else {
+                        x.style.display = "block";
+                        }
+                    }
+                </script>
+            </div>
+        </div>
+        <div class="socmed"> <!--code for the social media links and its pictures, same on all pages-->
+            <div class="logo">
+                <img src="images/Logo.jpg" alt="Logo">
+            </div>
+            <a href="https://www.facebook.com/sofia.nicole.50">
+                <img src="images/facebook.png" alt="facebook">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="images/instagram.png" alt="instagram">
+            </a>
+            <a href="https://github.com/sofiagaston/q1qp_ba_sngaston">
+                <img src="images/github.png" alt="github">
+            </a>
+        </div>
+    
+        <div class="MyTeam"> <!--is the div that contains my teammates pictures and resizes them-->
+            <div class="headshot">
+                <img src="images/gela.jpg" height="250px" width="250px" title="Rohanna Angel Cortez">
+            </div>
+            <div class="headshot">
+                <img src="images/me.jpg" height="250px" width="250px" title="Sofia Nicole Gaston (Me)">
+            </div>
+            <div class="headshot">
+                <img src="images/churcois.png" height="250px" width="250px" title="Churcois Marimon">
+           </div>
+        </div>
+        <div class="box1"> <!--contains lists of my personal background, some facts, and some of my hobbies-->
+            <img src="images/Bday.jpg" width="150" height="150">
+            <h3>Personal Background</h3>
+            <ul>
+                <li>
+                    I was born on February 9, 2009, in Cagayan de Oro City.
+                </li>
+                <li> 
+                    I went to Divine Love School for preschool.
+                </li>
+                <li>
+                    Studied at Nanuri International School for grades 1 & 2.
+                </li>
+                <li>
+                    For 3rd grade, I transferred to St. Mary's School and graduated there.
+                </li>
+                <li>
+                    Is currently studying at PSHS-SMC (Philippine Science High School - Southern Mindanao Campus) as a grade 9 student
+                </li>
+            </ul>
+        
+        </div>
+         <div class="box1">
+            <img src="images/travel.jpg" width="150" height="150">
+            <h3>Facts About Me</h3>
+            <ul>
+                <li>
+                    To go back home (CDeO), it is a 5 hour car ride, or a 45 min plane ride.
+                </li>
+                <li>
+                    I used to compete in Math Competitions and I was supposed to go to Thailand for the final round of TIMO (Thailand International Math Olympiad), but the pandemic cancelled those plans. 
+                </li>
+                <li>
+                    I would like to pursue a medical course in college.
+                </li>
+                <li>
+                    I used to be a competitive swimmer, but I turned to Volleyball instead because I could practice it at home during the pandemic.
+                </li>
+            </ul>
+        </div>
+        <div class="box1">
+            <img src="images/horse.jpg" width="150" height="150">
+            <h3>Some of My Hobbies</h3>
+            <ul>
+                <li>
+                    Spending time with friends and family
+                </li>
+                <li>
+                    Travelling to different places, whether it may be in the Philippines or outside the country.
+                </li>
+                <li>
+                    Listening to music.
+                </li>
+                <li>
+                    I love reading Fiction, Romance, and Mystery books.
+                </li>
+                <li> 
+                    I like to cook and bake food from different cuisines
+                </li>
+                <li>
+                    Spending time in the outdoors, especially horseback riding
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer"> <!--can be seen on the bottom of the page and is the same on all the pages-->
+            <p>All Rights Reserved. sofaig 2023</p>
+        </div>
+    </div>
+
+   </body>
+</html>

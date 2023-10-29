@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>References Page</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page"> <!--this div is the largest div-->
+        <div class="navbar"> <!--This div is the same in all the pages-->
+            <a href="ref.htm">REFERENCES</a>
+            <div class="hamburger"><!--This div allows us to control the hamburger icon in css-->
+                <div id="myLinks">
+                    <a href="index.html">Home</a>
+                    <a href="studyBg.html">Introduction</a>
+                    <a href="main.html">Main Content and Conclusions</a>
+                    <a href="AboutMe.html">About Me and My Team</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <!--The java code for the hamburger icon-->
+                <script>
+                    function toggleMenu() {
+                    var x = document.getElementById("myLinks");
+                    if (x.style.display === "block") {
+                        x.style.display = "none";
+                     } else {
+                        x.style.display = "block";
+                    }
+                    }
+                </script>
+            </div>
+        </div>
+        </div>
+        <div class="References"> <!--This div contains a list of the references used-->
+            <h1>References:</h1>
+            <p>We collected our data through sending google forms which were answered by select PSHS Scholars. However, we did some research on our topic beforehand so we could really understand its interconnections. Listed below are the sources we used.</p>
+            <ul> <!--unordered list for each reference-->
+                <li>Poverty in the Philippines: the impact of family size. (1992b, June 1). PubMed. 
+                    <a href="https://pubmed.ncbi.nlm.nih.gov/12317439/#:~:text=In%20the%20Philippines%2C%20over%2033,78%25%20for%20those%20with%205.">https://pubmed.ncbi.nlm.nih.gov/12317439/#:~:text=In%20the%20Philippines%2C%20over%2033,78%25%20for%20those%20with%205.</a></li>
+                <li>Understanding Social Classes in the Philippines: Which Class Do You Belong to? (n.d.-b). 
+                    <a href="https://pids.gov.ph/details/news/in-the-news/understanding-social-classes-in-the-philippines-which-class-do-you-belong-to">https://pids.gov.ph/details/news/in-the-news/understanding-social-classes-in-the-philippines-which-class-do-you-belong-to</a>
+                </li>
+                <li>A.Kireeva. (2023). Middle class in the Philippines: understanding and income ranges. Digido.
+                    <a href="https://digido.ph/articles/middle-class-philippines">https://digido.ph/articles/middle-class-philippines</a>
+                </li>
+            </ul>
+        </div>
+        <div class="socmed"> <!--code for the social media links and its pictures, same on all pages-->
+            <div class="logo">
+                <img src="images/Logo.jpg" alt="Logo">
+            </div>
+            <a href="https://www.facebook.com/sofia.nicole.50">
+                <img src="images/facebook.png" alt="facebook">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="images/instagram.png" alt="instagram">
+            </a>
+            <a href="https://github.com/sofiagaston/q1qp_ba_sngaston">
+                <img src="images/github.png" alt="github">
+            </a>
+        </div>
+        <div class="footer"> <!--can be seen on the bottom of the page and is the same on all the pages-->
+            <p>All Rights Reserved. sofaig 2023</p>
+        </div>
+    </div>
+
+   </body>
+</html>

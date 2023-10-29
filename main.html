@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Content Page</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page"> <!--this div is the largest div-->
+        <div class="navbar"> <!--This div is the same in all the pages-->
+            <a href="main.html">MAIN CONTENT AND CONCLUSIONS</a>
+            <div class="hamburger"><!--This div allows us to control the hamburger icon in css-->
+                <div id="myLinks">
+                    <a href="index.html">Home</a>
+                    <a href="main.html">Main Content and Conclusions</a>
+                    <a href="ref.html">References</a>
+                    <a href="AboutMe.html">About Me and My Team</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+                <!--The java code for the hamburger icon-->
+                <script>
+                    function myFunction() {
+                        var x = document.getElementById("myLinks");
+                        if (x.style.display === "block") {
+                        x.style.display = "none";
+                        } else {
+                        x.style.display = "block";
+                        }
+                    }
+                </script>
+            </div>
+        </div>
+        <div class="content1"> 
+            <div class="image-text-box"> <!--this div contains the image and the text-->
+                <div class="image"> <!--contains the image that stays beside the text-->
+                    <img src="images/HousholdType.png" width="500">
+                </div>
+                <div class="text">  <!--contains the text portion-->
+                    <p>In this Pie Chart, we can infer that the extended family household and the single-parent with extended family household had 5.6% out of the 54 (sample). While 16.7% out of 54 (sample) voted for the single parent household. Lastly, the majority voted for the two-parent household which had 72.2% out of 54 (sample).</p>
+                </div> <!--text in qualitative variables are in paragraph form-->
+            </div>
+        </div>
+        <div class="content1">
+            <div class="image-text-box"> <!--this div contains the image and the text-->
+                <div class="text">  <!--contains the text portion-->
+                    <p>In this Pie Chart, we can see that 3.6% out of 55 are unsure of their guardian’s/s monthly income. 9.1% out of 55 people have high income. 21.8% out of 55 have low monthly income. Lastly, the majority 65.5% out of 55 are in the middle class since their guardian’s/s monthly income is from Php 36,400 to Php 109,200. (sample)</p>
+                </div><!--text in qualitative variables are in paragraph form-->
+                <div class="image"> <!--contains the image that stays beside the text-->
+                    <img src="images/MonthlyIncome.png" width="500">
+                </div>
+            </div>
+        </div>
+        <div class="content1">
+            <div class="image-text-box"><!--this div contains the image and the text-->
+                <div class="image"><!--contains the image that stays beside the text-->
+                    <img src="images/HouseholdSize.png" width="500">
+                </div>
+                <div class="text">  <!--contains the text portion-->
+                    <h2>List of Descriptives for the Household Size Data:</h2>
+                    <ul>
+                        <li>
+                            <h3>Measures of the Center</h3>
+                            Mean = 4.56<br>
+                            Median = 5<br>
+                            Mode = 5<br>
+                        </li>
+                        <li>
+                            <h3>Variability</h3>
+                            Range = 6<br>
+                            Standard Deviation = 1.24<br>          <!--list of the Descriptives, acts as the text for the quantitative variables-->
+                            Variance = 1.55<br>
+                            Interquartile Range = 1<br>
+                        </li>
+                        <li>
+                            <h3>5-number Summary</h3>
+                            Minimum = 2<br>
+                            Q1 Median = 4<br>
+                            Q2 Median = 5<br>
+                            Q3 Median = 5<br>
+                            Maximum = 8<br>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="content1">
+            <div class="image-text-box"> <!--this div contains the image and the text-->
+                <div class="text"> <!--contains the text portion-->
+                    <h2>List of Descriptives for the Weekly Allowance Data:</h2>
+                    <ul>
+                        <li>
+                            <h3>Measures of the Center</h3>
+                            Mean = 1015.35<br>
+                            Median = 750<br>
+                            Mode = 750<br>
+                        </li>
+                        <li>
+                            <h3>Variability</h3>
+                            Range = 2500 - 0 = 2500<br>
+                            Standard Deviation = 424.15<br>         <!--list of the Descriptives, acts as the text for the quantitative variables-->
+                            Variance = 179902.1<br>
+                            Interquartile Range = 250<br>
+                        </li>
+                        <li>
+                            <h3>5-number Summary</h3>
+                            Minimum = 0<br>
+                            Q1 Median = 500<br>
+                            Q2 Median = 750<br>
+                            Q3 Median = 750<br>
+                            Maximum = 2500<br>
+                        </li>
+                    </ul>
+                </div>
+                <div class="image"> <!--contains the image that stays beside the text-->
+                    <img src="images/WeeklyAllowance.png" width="500">
+                </div>
+            </div>
+        </div>
+        <div class="conclusions"> <!--as the class indicates, this div contains the conclusions-->
+            <center><h1>Conclusion</h1></center>
+            <p><!--different paraghraphs-->
+                We have made several significant inferences after obtaining and evaluating our acquired data. From this, we have discovered the evident pattern and the links between a family’s financial capabilities and their children’s allowance. This relationship highlights the important role that a person's financial situation has in determining the amount of financial support given to children. Families with higher salaries can provide their children with a larger weekly allowance to cover their needs and extracurricular activities. While other factors also play a role in this, such as a person’s living status. For example, a regional scholar may have a larger allowance while a city scholar may have a limited one as they have different needs.
+            </p>
+            <p>
+                The majority of our respondents are part of the middle class whilst also having a two-parent household. The financial stability of one's family and upbringing can be greatly impacted by the factors stated previously. Dual income streams are frequently present in two-parent households, which can contribute to some level of financial security. However, a larger middle-class or lower-class family could have difficulty supporting their children as their resources are limited and shared within the household. Regardless of a family’s income, having a larger family surely affects one's weekly allowance and a family’s overall budget plan.
+            </p>
+            <p>
+                Our analysis suggests and supports the significance of a guardian’s monthly income, household type, household size, and an individual’s weekly allowance. This allows us insight into the interconnections between the socioeconomic structure. Families in the Lower and Middle classes are subsequent to financial instability and lack of substantial support. On the other hand, high-income families, though still vulnerable to these hardships, are less likely to suffer from penury but are jeopardized by unique financial problems such as the ignorance and inability to budget wisely. These results highlight the complexity of family economics and the significance of taking into account a range of variables when evaluating financial stability and support systems within households.
+            </p>
+        </div>
+        
+        <div class="socmed"> <!--code for the social media links and its pictures, same on all pages-->
+            <div class="logo">
+                <img src="images/Logo.jpg" alt="Logo">
+            </div>
+            <a href="https://www.facebook.com/sofia.nicole.50">
+                <img src="images/facebook.png" alt="facebook">
+            </a>
+            <a href="https://www.instagram.com/">
+                <img src="images/instagram.png" alt="instagram">
+            </a>
+            <a href="https://github.com/sofiagaston/q1qp_ba_sngaston">
+                <img src="images/github.png" alt="github">
+            </a>
+        </div>
+
+        <div class="footer"> <!--can be seen on the bottom of the page and is the same on all the pages-->
+            <p>All Rights Reserved. sofaig 2023</p>
+        </div>
+    </div>
+
+   </body>
+</html>
